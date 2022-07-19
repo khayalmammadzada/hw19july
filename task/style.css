@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contacts-socials{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+
+.contacts-socials .phone-email{
+    width: 420px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 5%;
+}
+
+
+
+.contacts-socials .icons{
+    width: 250px;
+    height: 25px;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 5px;
+    
+}
+
+ul{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 5%;
+    list-style: none;
+} 
+
+.logo-navlinks{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+
+
+.logo{
+    position: relative;
+    left:5%;
+}
+
+.navlinks{
+    display: flex;
+    width: 300px;
+}
+
+header{
+    height: 100px;
+    background-image: url(clouds.jpeg);
+}
